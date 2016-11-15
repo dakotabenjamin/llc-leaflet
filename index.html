@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
 <style>
-#map { height: 180px }
+#map { height: 800px }
 </style>
 
 </head>
@@ -12,7 +12,7 @@
  <div id="map"></div>
  
 <script>
-var map = L.map('map').setView([41.63, -81.36], 13); 
+var map = L.map('map').setView([41.63, -81.36], 6); 
 
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
